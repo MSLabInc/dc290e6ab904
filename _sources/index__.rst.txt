@@ -1,0 +1,107 @@
+.. TEMPLATE documentation master file, created by
+   sphinx-quickstart on Sat May 28 09:03:19 2022.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+====================================
+Big_Title, TEMPLATE's documentation!
+====================================
+
+
+
+ページ内の目次は以下のように書きます
+=================================
+
+.. contents:
+   ::local::
+
+目次１
+-------
+
+その１の内容
+
+目次２
+-------
+
+その２の内容
+
+目次３
+-------
+
+その３の内容
+
+* より上位の目次、見出しがくると、そこで目次のセクションが終了するのでは？
+
+
+ここで、ローカルなは終了する、のでは？　（確認要） {220610}
+
+
+
+脚注
+=========
+
+1. それをデータベースとして [1]_  。  
+
+.. [1] Thread／スレッドでは。。。。。
+
+
+
+* 1
+
+.. code-block:: python
+
+   def main():
+   
+
+* 2
+
+ここが重要だ！ という文章は強調したいと思います。
+
+強調を行うには、以下のように書いていきます。
+
+======== =========== ============ =========
+種類     使用例      書き方       HTMLタグ
+======== =========== ============ =========
+強調     *文字列*    \*で囲む     <em>
+強い強調 **文字列**  \*\*で囲む   <strong>
+======== =========== ============ =========
+
+先ほどのリストを強調してみます。
+
+
+
+
+
+
+.. list-table:: 表のテンプレート
+    :header-rows: 1
+
+    * - AAA
+      - xx
+      - xx
+      - xx
+    * - BBB
+      - xx
+      - xx
+      - xx
+    * - XXX
+      - xx
+      - xx
+      - xx
+
+
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
